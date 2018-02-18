@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_b1674bb86c954cccbb70a6a4d2a83bf0 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b1674bb86c954cccbb70a6a4d2a83bf0" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_b1674bb86c954cccbb70a6a4d2a83bf0 = L.map(
+                                  'map_b1674bb86c954cccbb70a6a4d2a83bf0',
+                                  {center: [0,0],
+                                  zoom: 1,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_384eff5b16e04dfe84737038a15eaffa = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_b1674bb86c954cccbb70a6a4d2a83bf0);
+        
+    
+            var feature_group_11ec3f947c0c464baf6eb4c3f0325371 = L.featureGroup(
+                ).addTo(map_b1674bb86c954cccbb70a6a4d2a83bf0);
+        
+    
+
+            var marker_44916da319ec4de0a354b1ca4dc91d8b = L.marker(
+                [49.02689837500003,31.374926053000024],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_11ec3f947c0c464baf6eb4c3f0325371);
+            
+    
+
+                var icon_dd2dad0b4f6c42428368967fee3af918 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_44916da319ec4de0a354b1ca4dc91d8b.setIcon(icon_dd2dad0b4f6c42428368967fee3af918);
+            
+    
+            var popup_db5de73b776e4378a02b7e633ddd53ac = L.popup({maxWidth: '300'});
+
+            
+                var html_227f61a4b9f54844b77e1a929c84a68a = $('<div id="html_227f61a4b9f54844b77e1a929c84a68a" style="width: 100.0%; height: 100.0%;">Elena Lazarus</div>')[0];
+                popup_db5de73b776e4378a02b7e633ddd53ac.setContent(html_227f61a4b9f54844b77e1a929c84a68a);
+            
+
+            marker_44916da319ec4de0a354b1ca4dc91d8b.bindPopup(popup_db5de73b776e4378a02b7e633ddd53ac);
+
+            
+        
+    
+
+            var marker_7fda75113d23438887413024d0177444 = L.marker(
+                [61.989526183000066,96.80537153400007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_11ec3f947c0c464baf6eb4c3f0325371);
+            
+    
+
+                var icon_d21a2700524b400b9cbb27060824ab1c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7fda75113d23438887413024d0177444.setIcon(icon_d21a2700524b400b9cbb27060824ab1c);
+            
+    
+            var popup_3f83e47d672645649e6153b4012de368 = L.popup({maxWidth: '300'});
+
+            
+                var html_dc3705932080437db561979a258171d8 = $('<div id="html_dc3705932080437db561979a258171d8" style="width: 100.0%; height: 100.0%;">Ubisoft Russia</div>')[0];
+                popup_3f83e47d672645649e6153b4012de368.setContent(html_dc3705932080437db561979a258171d8);
+            
+
+            marker_7fda75113d23438887413024d0177444.bindPopup(popup_3f83e47d672645649e6153b4012de368);
+
+            
+        
+    
+
+            var marker_abf833cbf8a547dbb88303ef61e8d637 = L.marker(
+                [55.75696000000005,37.61501000000004],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_11ec3f947c0c464baf6eb4c3f0325371);
+            
+    
+
+                var icon_df9e24af775948fb988c0484a8dbd3f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_abf833cbf8a547dbb88303ef61e8d637.setIcon(icon_df9e24af775948fb988c0484a8dbd3f6);
+            
+    
+            var popup_fd48b9980b5a4fe8bdbd98a3e53b391e = L.popup({maxWidth: '300'});
+
+            
+                var html_509404c7dee84fb8b278c8580a02cbb2 = $('<div id="html_509404c7dee84fb8b278c8580a02cbb2" style="width: 100.0%; height: 100.0%;">PlayStation Россия</div>')[0];
+                popup_fd48b9980b5a4fe8bdbd98a3e53b391e.setContent(html_509404c7dee84fb8b278c8580a02cbb2);
+            
+
+            marker_abf833cbf8a547dbb88303ef61e8d637.bindPopup(popup_fd48b9980b5a4fe8bdbd98a3e53b391e);
+
+            
+        
+    
+            var layer_control_5282d9c9c55648d699c60b4cf2a771d8 = {
+                base_layers : { "openstreetmap" : tile_layer_384eff5b16e04dfe84737038a15eaffa, },
+                overlays : { "Friends_map" : feature_group_11ec3f947c0c464baf6eb4c3f0325371, }
+                };
+            L.control.layers(
+                layer_control_5282d9c9c55648d699c60b4cf2a771d8.base_layers,
+                layer_control_5282d9c9c55648d699c60b4cf2a771d8.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_b1674bb86c954cccbb70a6a4d2a83bf0);
+        
+</script>
